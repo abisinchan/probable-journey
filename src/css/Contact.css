@@ -1,0 +1,75 @@
+/* Contact.css */
+
+
+.contact{
+    margin: 0;
+    padding: 0;
+    height: 100%;  
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Set a background color */
+}
+
+.contact-form {
+  max-width: 500px;
+  width: 100%;
+  padding: 20px 45px 20px 25px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 50px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.contact-form button {
+  display: block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.notification {
+    color: #5d38e4;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    text-transform: uppercase; /* Add this line to render messages in uppercase */
+  }
+  
+
+
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+  .contact-form {
+    max-width: 100%;
+  }
+}

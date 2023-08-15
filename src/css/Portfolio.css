@@ -1,0 +1,32 @@
+/* Portfolio.css */
+.portfolio-section {
+    padding: 20px;
+  }
+  
+  .portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px;
+    justify-content: center; /* Center the items horizontally */
+  }
+  
+  .portfolio-item {
+    text-align: center;
+  }
+  
+  .links {
+    margin-top: 10px; /* Add spacing between links */
+  }
+  
+  .links a {
+    display: block;
+    margin-bottom: 5px; /* Add spacing between links */
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .portfolio-items {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+    }
+  }
+  

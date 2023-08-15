@@ -1,0 +1,23 @@
+/* Footer.css */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0; /* Add background color if desired */
+  }
+  
+  .social-links {
+    text-align: center;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #007bff; /* Change link color on hover */
+  }
+  
