@@ -1,18 +1,32 @@
 /* Navigation.css */
+nav {
+  padding: 0;
+  margin: 0;
+}
+
 .navigation-list {
-    list-style: none; /* Remove bullet points */
-    display: flex; /* Display items in a row */
-    justify-content: center; /* Center items horizontally */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-  }
-  
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-list li {
+  margin: 0 15px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  font-size: 2vw; /* Adjust the value as needed */
+  transition: font-size 0.3s; /* Add a smooth transition for font size changes */
+}
+
+.navigation-list li.active {
+  font-weight: bold;
+}
+
+/* Add media queries to adjust font size at different breakpoints */
+
+
+/* @media (max-width: 480px) {
   .navigation-list li {
-    margin: 0 15px; /* Add spacing between items */
-    cursor: pointer;
-  }
+    font-size: 1vw; /* Adjust the value as needed */
   
-  .navigation-list li.active {
-    font-weight: bold;
-  }
-  
+

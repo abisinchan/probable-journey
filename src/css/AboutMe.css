@@ -1,18 +1,27 @@
 /* AboutMe.css */
 .about-me-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .avatar {
-    margin-bottom: 20px;
-  }
-  
-  .bio {
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #0d1f22;
+  background-color: #566331;
+}
+
+.avatar {
+  margin-bottom: 20px;
+  border-radius: 50%; /* Makes the avatar a circle */
+  overflow: hidden; /* Hide any overflowing content */
+}
+
+.avatar img {
+  width: 250px; 
+  height: 250px; 
+  object-fit: cover; /* Maintain aspect ratio and cover the entire circle */
+ 
+}
+
+.bio {
+  max-width: 500px;
+  margin: 0 auto;
+}

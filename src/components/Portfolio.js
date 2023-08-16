@@ -53,7 +53,7 @@ function Portfolio() {
     },
     ];
 return (
-  <div>
+  <div className='container'>
     <h2>My Portfolio</h2>
     <section className="portfolio-section">
       <div className="portfolio-items">

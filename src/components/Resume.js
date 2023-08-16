@@ -2,9 +2,11 @@ import React from 'react';
 import '../css/Resume.css';
 function Resume() {
   return (
+    <div className='container'>
+    <h2>My Resume</h2>
     <section>
+    <div className='resume-container'>
       <div className="resume-links">
-        <h2>My Resume</h2>
         <a href="/asinchanResume.docx" download>
           Download Resume
         </a>
@@ -18,10 +20,12 @@ function Resume() {
           <li>MongoDB</li>
           <li>React</li>
         
-          {/* Add more proficiencies */}
+          
         </ul>
       </div>
+    </div>
     </section>
+    </div>
   );
 }
 

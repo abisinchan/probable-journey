@@ -28,11 +28,13 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <body>
       <Header activeSection={activeSection} setActiveSection={setActiveSection} />
+
       {renderSection()} {/* Render the active section */}
+      
       <Footer /> {/* Add the Footer component */}
-    </div>
+    </body>
   );
 }
 

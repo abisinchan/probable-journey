@@ -4,7 +4,8 @@ import '../css/AboutMe.css'; // Import your custom CSS file
 
 function AboutMe() {
   return (
-    <div>
+    <div className='container'>
+      <h2></h2>
     <section className="about-me-container">
       <div className="avatar">
         {/* Display the developer's recent photo or avatar */}

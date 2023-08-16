@@ -1,21 +1,14 @@
-/* App.css */
-nav ul li.active {
-    font-weight: bold;
-  }
-  
-  .navigation-list {
-    list-style: none; /* Remove bullet points */
-    display: flex; /* Display items in a row */
-    justify-content: center; /* Center items horizontally */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-  }
-  
-  .navigation-list li {
-    margin: 0 15px; /* Add spacing between items */
-    cursor: pointer;
-  }
-  
-  .navigation-list li.active {
-    font-weight: bold;
-  }
+body{
+  background-color: #0d1f22;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+  background-color: #566331;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h2{
+  padding: 10px;
+}
