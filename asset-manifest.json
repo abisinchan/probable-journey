@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.bdaee6b4.css",
-    "main.js": "/my-app/static/js/main.db6cde66.js",
-    "static/media/rhythmReview.png": "/my-app/static/media/rhythmReview.019f103f12b3791e3b4b.png",
-    "static/media/howRUFeeling.png": "/my-app/static/media/howRUFeeling.9354ed6bbd145d4304bc.png",
-    "static/media/user.png": "/my-app/static/media/user.39418db5f4a2e6bd9593.png",
-    "static/media/weatherApp.png": "/my-app/static/media/weatherApp.606e780ba5e8f85a8866.png",
-    "static/media/quizMaster.png": "/my-app/static/media/quizMaster.cb1285c6949a40bdbc84.png",
-    "static/media/workdaySchedular.png": "/my-app/static/media/workdaySchedular.cbba332145c43749bd83.png",
-    "static/media/noteTaker.png": "/my-app/static/media/noteTaker.6d978660a896a14eb5e4.png",
-    "index.html": "/my-app/index.html",
-    "main.bdaee6b4.css.map": "/my-app/static/css/main.bdaee6b4.css.map",
-    "main.db6cde66.js.map": "/my-app/static/js/main.db6cde66.js.map"
+    "main.css": "/probable-journey/static/css/main.bdaee6b4.css",
+    "main.js": "/probable-journey/static/js/main.984ceb6e.js",
+    "static/media/rhythmReview.png": "/probable-journey/static/media/rhythmReview.019f103f12b3791e3b4b.png",
+    "static/media/howRUFeeling.png": "/probable-journey/static/media/howRUFeeling.9354ed6bbd145d4304bc.png",
+    "static/media/user.png": "/probable-journey/static/media/user.39418db5f4a2e6bd9593.png",
+    "static/media/weatherApp.png": "/probable-journey/static/media/weatherApp.606e780ba5e8f85a8866.png",
+    "static/media/quizMaster.png": "/probable-journey/static/media/quizMaster.cb1285c6949a40bdbc84.png",
+    "static/media/workdaySchedular.png": "/probable-journey/static/media/workdaySchedular.cbba332145c43749bd83.png",
+    "static/media/noteTaker.png": "/probable-journey/static/media/noteTaker.6d978660a896a14eb5e4.png",
+    "index.html": "/probable-journey/index.html",
+    "main.bdaee6b4.css.map": "/probable-journey/static/css/main.bdaee6b4.css.map",
+    "main.984ceb6e.js.map": "/probable-journey/static/js/main.984ceb6e.js.map"
   },
   "entrypoints": [
     "static/css/main.bdaee6b4.css",
-    "static/js/main.db6cde66.js"
+    "static/js/main.984ceb6e.js"
   ]
 }
