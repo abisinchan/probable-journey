@@ -14,19 +14,11 @@ nav {
   margin: 0 15px;
   cursor: pointer;
   padding-bottom: 10px;
-  font-size: 2vw; /* Adjust the value as needed */
-  transition: font-size 0.3s; /* Add a smooth transition for font size changes */
+  font-size: 2vw; 
+  transition: font-size 0.15s; /* Add a smooth transition for font size changes */
 }
 
 .navigation-list li.active {
   font-weight: bold;
 }
-
-/* Add media queries to adjust font size at different breakpoints */
-
-
-/* @media (max-width: 480px) {
-  .navigation-list li {
-    font-size: 1vw; /* Adjust the value as needed */
-  
 

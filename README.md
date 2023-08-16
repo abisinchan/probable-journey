@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# literate-guacamole
+React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This portfolio was created to be able to share my projects while I'm applying for jobs or working as a freelancer. Another purpose it serves is to be able to share my work with other developers and collaborate on projects. I struggled with getting images to render correctly, but found the correct paths in the end. Also I tried to make my resume downloadable while it was in the src folder, but eventually I realized that it needed to go in the public folder. 
 
-## Available Scripts
 
-In the project directory, you can run:
+## Installation
+n/a
 
-### `npm start`
+## Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Upon arrival to the page you are greeted with the about me as the default page on load. You can use the nav bar to switch between About Me, Portfolio, Contact, and Resume. They contain information about me and a few projects that I am proud to display. Since there is no server side, the logic for the form submit in the Contact page is incomplete, but will alert you that message was sent and a note explaining that it's purpose is for client-side demo. You can also download my resume in the Resume page. Currently, there is a placement number in place of my phone number and a partial address.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ScreenShot
+![screenshot](https://github.com/abisinchan/probable-journey/assets/132783183/0c6b711d-0513-4f6f-b78f-9ff6a70dd61b)
 
-### `npm test`
+## License
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+MIT License
 
-### `npm run build`
+## Link to Deployed
+https://abisinchan.github.io/probable-journey/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## My Github Repo
+https://github.com/abisinchan/probable-journey

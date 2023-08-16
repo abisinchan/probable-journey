@@ -7,6 +7,8 @@ import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 import './app.css';
+//import './jass.css';
+
 
 function App() {
   const [activeSection, setActiveSection] = useState('About Me'); // Set the initial active section
@@ -33,7 +35,7 @@ function App() {
 
       {renderSection()} {/* Render the active section */}
       
-      <Footer /> {/* Add the Footer component */}
+      <Footer /> 
     </body>
   );
 }
