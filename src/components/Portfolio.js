@@ -4,40 +4,40 @@ import '../css/Portfolio.css';
 function Portfolio() {
   const projects = [
     {
-      title: 'Project 1',
+      title: 'Rhythm Review',
       imageUrl: 'project1.jpg',
-      deployedLink: 'https://project1-demo.com',
-      githubLink: 'https://github.com/username/project1',
+      deployedLink: 'https://agile-springs-19422-e0a9573c7a30.herokuapp.com/',
+      githubLink: 'https://github.com/delantetr/literate-guacamole',
     },
     {
-        title: 'Project 2',
+        title: 'How R U Feeling',
         imageUrl: 'project1.jpg',
-        deployedLink: 'https://project1-demo.com',
-        githubLink: 'https://github.com/username/project1',
+        deployedLink: 'https://abisinchan.github.io/verbose-potato/',
+        githubLink: 'https://github.com/abisinchan/verbose-potato',
       },
       {
-        title: 'Project 3',
+        title: 'Note Taker',
         imageUrl: 'project1.jpg',
-        deployedLink: 'https://project1-demo.com',
-        githubLink: 'https://github.com/username/project1',
+        deployedLink: 'https://aqueous-taiga-53591-4655247aa37e.herokuapp.com/notes',
+        githubLink: 'https://github.com/abisinchan/crispy-octo-robot',
       },
       {
-        title: 'Project 4',
+        title: 'Weather DashBoard',
         imageUrl: 'project1.jpg',
-        deployedLink: 'https://project1-demo.com',
-        githubLink: 'https://github.com/username/project1',
+        deployedLink: 'https://abisinchan.github.io/animated-succotash/',
+        githubLink: 'https://github.com/abisinchan/animated-succotash',
       },
       {
-        title: 'Project 5',
+        title: 'Work Day Schedular',
         imageUrl: 'project1.jpg',
-        deployedLink: 'https://project1-demo.com',
-        githubLink: 'https://github.com/username/project1',
+        deployedLink: 'https://abisinchan.github.io/symmetrical-meme/',
+        githubLink: 'https://github.com/abisinchan/symmetrical-meme',
       },
       {
-        title: 'Project 6',
+        title: 'Quiz Master',
         imageUrl: 'project1.jpg',
-        deployedLink: 'https://project1-demo.com',
-        githubLink: 'https://github.com/username/project1',
+        deployedLink: 'https://abisinchan.github.io/ideal-barnacle/',
+        githubLink: 'https://github.com/abisinchan/ideal-barnacle',
       }
   ];
 
