@@ -1,11 +1,11 @@
 import React from 'react';
-
+import '../css/Resume.css';
 function Resume() {
   return (
     <section>
       <div className="resume-links">
-        {/* Link to a downloadable resume */}
-        <a href="resume.pdf" download>
+        <h2>My Resume</h2>
+        <a href="/asinchanResume.docx" download>
           Download Resume
         </a>
       </div>
@@ -13,8 +13,11 @@ function Resume() {
         <h3>Proficiencies</h3>
         <ul>
           <li>HTML5, CSS3, JavaScript</li>
-          <li>React, Redux</li>
           <li>Node.js, Express</li>
+          <li>MySql and Sequilize ORM </li>
+          <li>MongoDB</li>
+          <li>React</li>
+        
           {/* Add more proficiencies */}
         </ul>
       </div>

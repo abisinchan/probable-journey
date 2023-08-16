@@ -4,6 +4,7 @@ import '../css/AboutMe.css'; // Import your custom CSS file
 
 function AboutMe() {
   return (
+    <div>
     <section className="about-me-container">
       <div className="avatar">
         {/* Display the developer's recent photo or avatar */}
@@ -20,6 +21,7 @@ function AboutMe() {
         </p>
       </div>
     </section>
+      </div>
   );
 }
 

@@ -53,11 +53,15 @@ function Portfolio() {
     },
     ];
 return (
+  <div>
+    <h2>My Portfolio</h2>
     <section className="portfolio-section">
       <div className="portfolio-items">
         {projects.map((project, index) => (
           <div key={index} className="portfolio-item">
+            
             <h3>{project.title}</h3>
+
             <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">
               <div className="portfolio-item-hover">
                 
@@ -69,18 +73,25 @@ return (
                 </div>
               </div>
             </a>
+
             <div className="links">
+
               <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">
                 Deployed Link
               </a>
+
               <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
                 Github Repo Link
               </a>
+
             </div>
+            
           </div>
         ))}
       </div>
     </section>
+    </div>
   );
+
 }
 export default Portfolio;

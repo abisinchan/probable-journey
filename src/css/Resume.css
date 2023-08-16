@@ -1,0 +1,26 @@
+.resume-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh; /* Adjust the height as needed */
+  }
+  
+  .resume-links {
+    margin-bottom: 20px;
+  }
+  
+  .proficiencies {
+    text-align: left;
+  }
+  
+  .proficiencies ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .proficiencies ul li {
+    margin: 5px 0;
+  }
+  
