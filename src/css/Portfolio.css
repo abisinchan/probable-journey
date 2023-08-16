@@ -1,66 +1,85 @@
 /* Portfolio.css */
 .portfolio-section {
-    padding: 20px;
-    margin-top: 50px;
-  }
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.portfolio-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px;
+  justify-content: center; /* Center the items horizontally */
+}
+
+.portfolio-item {
+  text-align: center;
+  position: relative;
+}
+
+.portfolio-item-hover {
+  position: relative;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.portfolio-item-hover:hover {
+  opacity: 0.8; 
+}
+
+.languages {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Background color for the text */
+  color: white;
+  font-size: 20px;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.portfolio-item-hover:hover .languages {
+  opacity: 1; /* Display languages text on hover */
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px; /*maximum height for the images */
+}
+
+.links {
+  margin-top: 10px; /* Add spacing between links */
+}
+
+.links a {
+  display: block;
+  margin-bottom: 5px; /* Add spacing between links */
+  text-decoration: none;
+  color:black;
+  transition: all 0.3s;
   
+}
+
+.links a:hover{
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+.links a:active{
+color: blue;
+
+}
+
+@media (max-width: 768px) {
   .portfolio-items {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    gap: 20px;
-    justify-content: center; /* Center the items horizontally */
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
   }
-  
-  .portfolio-item {
-    text-align: center;
-    position: relative;
-  }
-
-  .portfolio-item-hover {
-    position: relative;
-    transition: opacity 0.3s ease-in-out;
-  }
-  
-  .portfolio-item-hover:hover {
-    opacity: 0.8; /* Adjust the opacity on hover */
-  }
-  
-  .languages {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Background color for the text */
-    color: white;
-    padding: 10px;
-    font-size: 14px;
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s ease-in-out;
-  }
-  
-  .portfolio-item-hover:hover .languages {
-    opacity: 1; /* Display languages text on hover */
-  }
-
-  .portfolio-item img {
-    max-width: 100%;
-    height: auto;
-    max-height: 300px; /* Set a maximum height for the images */
-  }
-  
-  .links {
-    margin-top: 10px; /* Add spacing between links */
-  }
-  
-  .links a {
-    display: block;
-    margin-bottom: 5px; /* Add spacing between links */
-    text-decoration: none;
-  }
-  
-  @media (max-width: 768px) {
-    .portfolio-items {
-      grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
-    }
-  }
-  
+}
