@@ -1,6 +1,7 @@
 /* Portfolio.css */
 .portfolio-section {
     padding: 20px;
+    margin-top: 50px;
   }
   
   .portfolio-items {
@@ -12,6 +13,39 @@
   
   .portfolio-item {
     text-align: center;
+    position: relative;
+  }
+
+  .portfolio-item-hover {
+    position: relative;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .portfolio-item-hover:hover {
+    opacity: 0.8; /* Adjust the opacity on hover */
+  }
+  
+  .languages {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Background color for the text */
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .portfolio-item-hover:hover .languages {
+    opacity: 1; /* Display languages text on hover */
+  }
+
+  .portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; /* Set a maximum height for the images */
   }
   
   .links {
