@@ -14,42 +14,42 @@ function Portfolio() {
       imageUrl: rhythmReviewImg, 
       deployedLink: 'https://agile-springs-19422-e0a9573c7a30.herokuapp.com/',
       githubLink: 'https://github.com/delantetr/literate-guacamole',
-      languages: ['React', 'Node.js', 'Express', 'MongoDB'],
+      languages: ['Node.js', 'Express', 'Handlebars.js','MySQL', 'Sequelize ORM', 'RESTful API', 'CSS']
     },
     {
       title: 'How R U Feeling',
       imageUrl: howRuFeelingImg, 
       deployedLink: 'https://abisinchan.github.io/verbose-potato/',
       githubLink: 'https://github.com/abisinchan/verbose-potato',
-      languages: ['React', 'Node.js', 'Express', 'MongoDB'],
+      languages: ['HTML', 'CSS', 'JS', 'Server-side APIs'],
     },
     {
       title: 'Note Taker',
       imageUrl: noteTakerImg,
       deployedLink: 'https://aqueous-taiga-53591-4655247aa37e.herokuapp.com/notes',
       githubLink: 'https://github.com/abisinchan/crispy-octo-robot',
-      languages: ['React', 'Node.js', 'Express', 'MongoDB'],
+      languages: ['Express.js'],
     },
     {
       title: 'Weather DashBoard',
       imageUrl: weatherDashboardImg,
       deployedLink: 'https://abisinchan.github.io/animated-succotash/',
       githubLink: 'https://github.com/abisinchan/animated-succotash',
-      languages: ['React', 'Node.js', 'Express', 'MongoDB'],
+      languages: ['HTML', 'CSS', 'JS', 'Server-side APIs'],
     },
     {
       title: 'Work Day Schedular',
       imageUrl: workDaySchedularImg,
       deployedLink: 'https://abisinchan.github.io/symmetrical-meme/',
       githubLink: 'https://github.com/abisinchan/symmetrical-meme',
-      languages: ['React', 'Node.js', 'Express', 'MongoDB'],
+      languages: ['HTML', 'CSS', 'JQuery'],
     },
     {
       title: 'Quiz Master',
       imageUrl: quizMasterImg,
       deployedLink: 'https://abisinchan.github.io/ideal-barnacle/',
       githubLink: 'https://github.com/abisinchan/ideal-barnacle',
-      languages: ['React', 'Node.js', 'Express', 'MongoDB'],
+      languages: ['HTML', 'CSS', 'JS'],
     },
     ];
 return (
