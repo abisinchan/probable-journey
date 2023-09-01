@@ -7,7 +7,7 @@ function Resume() {
       <section>
         <div className="resume-container">
           <div className="resume-links">
-            <a href="/asinchanResume.docx" download>
+            <a href={process.env.PUBLIC_URL + "/asinchanResume.docx"} download>
               Download Resume
             </a>
           </div>
