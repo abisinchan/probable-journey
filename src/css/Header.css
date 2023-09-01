@@ -5,19 +5,12 @@ header{
     border-bottom: 1px solid black;
 }
 
-.nameLogo{
-font-family: "Glass Antiqua";
-font-size: 4rem;
-margin: 1rem;
-padding-left: 1rem;
-letter-spacing: 0.5rem; 
-}
-
-.titleLogo{
-    font-size: 2rem;
-    font-weight: lighter;
-    padding-left: 10rem;
-    margin-top: -1rem; /* Adjust top margin */
-    letter-spacing: 0.5rem; /* Adjust letter spacing */
-}
-    
+.header-container {
+    max-width: 100%;
+text-align: center;
+  }
+  
+  .header-container img {
+    max-width: 100%;
+    height: auto; /* This maintains the aspect ratio */
+  }

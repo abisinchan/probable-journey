@@ -1,5 +1,7 @@
 import React from "react";
 import "../css/Footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithubSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
@@ -10,16 +12,17 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          GitHub
+         <FontAwesomeIcon icon={faGithubSquare} style={{ fontSize: "2em",color: "#c0b6ae" }} />
         </a>
         <a
           href="https://linkedin.com/in/abigailsinchan"
           target="_blank"
           rel="noopener noreferrer"
         >
-          LinkedIn
+        <FontAwesomeIcon icon={faLinkedin} style={{ fontSize: "2em",color: "#c6b6ae" }} />
         </a>
       </div>
+
     </footer>
   );
 }
