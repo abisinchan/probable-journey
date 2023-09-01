@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/probable-journey/static/css/main.219ca6a4.css",
-    "main.js": "/probable-journey/static/js/main.1a930c42.js",
+    "main.css": "/probable-journey/static/css/main.83ad100e.css",
+    "main.js": "/probable-journey/static/js/main.96861100.js",
+    "static/media/user.png": "/probable-journey/static/media/user.8237ccf3cd64461e9b0b.png",
     "static/media/bg.png": "/probable-journey/static/media/bg.cbcc0afff3873affac8e.png",
     "static/media/rhythmReview.png": "/probable-journey/static/media/rhythmReview.019f103f12b3791e3b4b.png",
     "static/media/howRUFeeling.png": "/probable-journey/static/media/howRUFeeling.9354ed6bbd145d4304bc.png",
-    "static/media/user.png": "/probable-journey/static/media/user.39418db5f4a2e6bd9593.png",
     "static/media/weatherApp.png": "/probable-journey/static/media/weatherApp.606e780ba5e8f85a8866.png",
+    "static/media/svgLogo.svg": "/probable-journey/static/media/svgLogo.bb05844ed9fa510c5e035cc6b7d0dec8.svg",
     "static/media/quizMaster.png": "/probable-journey/static/media/quizMaster.cb1285c6949a40bdbc84.png",
     "static/media/workdaySchedular.png": "/probable-journey/static/media/workdaySchedular.cbba332145c43749bd83.png",
     "static/media/noteTaker.png": "/probable-journey/static/media/noteTaker.6d978660a896a14eb5e4.png",
     "index.html": "/probable-journey/index.html",
-    "main.219ca6a4.css.map": "/probable-journey/static/css/main.219ca6a4.css.map",
-    "main.1a930c42.js.map": "/probable-journey/static/js/main.1a930c42.js.map"
+    "main.83ad100e.css.map": "/probable-journey/static/css/main.83ad100e.css.map",
+    "main.96861100.js.map": "/probable-journey/static/js/main.96861100.js.map"
   },
   "entrypoints": [
-    "static/css/main.219ca6a4.css",
-    "static/js/main.1a930c42.js"
+    "static/css/main.83ad100e.css",
+    "static/js/main.96861100.js"
   ]
 }
