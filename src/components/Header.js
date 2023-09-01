@@ -6,7 +6,8 @@ function Header({ activeSection, setActiveSection }) {
   return (
     <header>
       <div>
-        <h1>Abigail Sinchan</h1>
+        <p className="nameLogo">Abigail Sinchan</p>
+        <p className="titleLogo">JUNIOR WEB DEVELOPER</p>
 
         <Navigation
           activeSection={activeSection}
