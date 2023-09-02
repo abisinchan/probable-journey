@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../css/Contact.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"; // Import the faEnvelope icon
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -68,6 +70,12 @@ function Contact() {
   return (
     <div className="container">
       <div className="contact">
+      <div className="email"> 
+        <p>Let's create something together! </p> 
+      <span><FontAwesomeIcon icon={faEnvelope} /> {/* Use the imported faEnvelope icon */} abigailsinchan@gmail.com</span>
+      </div>
+     
+       
         <form className="contact-form" onSubmit={handleSubmit}>
           <label>
             Name:
