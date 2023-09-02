@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/probable-journey/static/css/main.de203d1d.css",
-    "main.js": "/probable-journey/static/js/main.e75d1c26.js",
+    "main.css": "/probable-journey/static/css/main.f75fa867.css",
+    "main.js": "/probable-journey/static/js/main.2048795a.js",
     "static/media/user.png": "/probable-journey/static/media/user.8237ccf3cd64461e9b0b.png",
     "static/media/bg.png": "/probable-journey/static/media/bg.cbcc0afff3873affac8e.png",
     "static/media/rhythmReview.png": "/probable-journey/static/media/rhythmReview.019f103f12b3791e3b4b.png",
     "static/media/howRUFeeling.png": "/probable-journey/static/media/howRUFeeling.9354ed6bbd145d4304bc.png",
     "static/media/MontserratLight-ywBvq.ttf": "/probable-journey/static/media/MontserratLight-ywBvq.380c6b5efc496dbfa7cb.ttf",
     "static/media/abigailsinchan.pdf": "/probable-journey/static/media/abigailsinchan.74a32af751814494b113.pdf",
-    "static/media/Vintage Goods.ttf": "/probable-journey/static/media/Vintage Goods.0dabc00c4cf25b4f1f76.ttf",
     "static/media/NewBoba-mLwWa.ttf": "/probable-journey/static/media/NewBoba-mLwWa.3e870af9656fedfb2105.ttf",
     "static/media/weatherApp.png": "/probable-journey/static/media/weatherApp.606e780ba5e8f85a8866.png",
     "static/media/svgLogo.svg": "/probable-journey/static/media/svgLogo.bb05844ed9fa510c5e035cc6b7d0dec8.svg",
@@ -16,11 +15,11 @@
     "static/media/workdaySchedular.png": "/probable-journey/static/media/workdaySchedular.cbba332145c43749bd83.png",
     "static/media/noteTaker.png": "/probable-journey/static/media/noteTaker.6d978660a896a14eb5e4.png",
     "index.html": "/probable-journey/index.html",
-    "main.de203d1d.css.map": "/probable-journey/static/css/main.de203d1d.css.map",
-    "main.e75d1c26.js.map": "/probable-journey/static/js/main.e75d1c26.js.map"
+    "main.f75fa867.css.map": "/probable-journey/static/css/main.f75fa867.css.map",
+    "main.2048795a.js.map": "/probable-journey/static/js/main.2048795a.js.map"
   },
   "entrypoints": [
-    "static/css/main.de203d1d.css",
-    "static/js/main.e75d1c26.js"
+    "static/css/main.f75fa867.css",
+    "static/js/main.2048795a.js"
   ]
 }
