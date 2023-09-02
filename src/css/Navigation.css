@@ -8,17 +8,32 @@ nav {
   list-style: none;
   display: flex;
   justify-content: center;
+  margin-top: -1rem;
 }
 
 .navigation-list li {
   margin: 0 15px;
   cursor: pointer;
   padding-bottom: 10px;
-  font-size: 2vw; 
-  transition: font-size 0.15s; /* Add a smooth transition for font size changes */
+  font-family: 'Monteserrat Light', Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: .2rem;
+  font-size: 1.5vw; 
+  transition: font-size 0.15s, transform 0.2s, color 0.2s; /* Added transitions for font size, transform, and color */
+
 }
 
+.navigation-list li:hover {
+  color: #574a58; /* Change text color on hover */
+  font-size: 1.7vw; /* Increase font size on hover */
+  transform: translateY(-3px); /* Add a subtle lift effect on hover */
+  text-shadow: 2px 2px 4px rgba(87, 74, 88, 0.5); /* Apply a text shadow */
+}
 .navigation-list li.active {
-  font-weight: bold;
+  color: #574a58; /* Change the text color for the active item */
+  font-weight: bold; /* Make the active item's text bold */
+  text-decoration: underline; /* Add an underline to the active item's text */
+  transform: none; /* Reset any transform for the active item */
+  text-shadow: none; /* Remove text shadow for the active item */
+
 }
 

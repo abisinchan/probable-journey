@@ -9,6 +9,7 @@
   grid-template-columns: repeat(3, 1fr); /* 3 columns */
   gap: 20px;
   justify-content: center; /* Center the items horizontally */
+
 }
 
 .portfolio-item {
@@ -69,17 +70,19 @@
 
 .links a:hover{
   font-weight: bold;
-  text-decoration: underline;
+ 
+  color: #b38a58; /* Change link color on hover */
 
 }
 
 .links a:active{
-color: #b38a58;
+  text-decoration: underline;
 
 }
 
 @media (max-width: 768px) {
   .portfolio-items {
     grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+    font-size: 2vw;
   }
 }

@@ -1,9 +1,29 @@
+
+@font-face{
+  font-family: 'Monteserrat Light';
+  src: url('./fonts/MontserratLight-ywBvq.ttf') format('truetype');
+  /* You can also include additional font formats like woff, woff2, eot, etc. for better browser compatibility */
+}
+
+@font-face{
+  font-family: 'Vintage Goods';
+  src: url('./fonts/Vintage\ Goods.ttf') format('truetype');
+  /* You can also include additional font formats like woff, woff2, eot, etc. for better browser compatibility */
+}
+
+@font-face{
+  font-family: 'New Boba';
+  src: url('./fonts/NewBoba-mLwWa.ttf') format('truetype');
+  /* You can also include additional font formats like woff, woff2, eot, etc. for better browser compatibility */
+}
+
 html{
   background-image: url('./images/bg.png');
   background-size:cover;
   background-repeat:no-repeat;
   background-position: center;
-  font-family: Montserrat, Georgia, 'Times New Roman', Times, serif;
+  font-family: "Monteserrat Light", Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: .2rem;
   font-size: 20px;
   font-weight: bold;
 }
@@ -14,4 +34,5 @@ html{
 
 h2{
   padding: 10px;
+  font-family: 'Vintage Goods', Georgia, 'Times New Roman', Times, serif;
 }

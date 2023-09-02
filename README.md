@@ -19,6 +19,12 @@ Upon arrival to the page you are greeted with the about me as the default page o
 
 MIT License
 
+Freeware
+link: https://www.fontspace.com/new-boba-font-f102261
+
+SIL Open Font License (OFL)
+link: https://www.fontspace.com/montserrat-font-f16544
+
 ## Link to Deployed
 https://abisinchan.github.io/probable-journey/
 

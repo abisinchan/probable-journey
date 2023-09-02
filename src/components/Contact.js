@@ -67,7 +67,6 @@ function Contact() {
 
   return (
     <div className="container">
-      <h2>Contact Me</h2>
       <div className="contact">
         <form className="contact-form" onSubmit={handleSubmit}>
           <label>

@@ -1,7 +1,6 @@
-.container {
-  /* Add any additional styling for the container if needed */
+.container{
+  margin: 1rem 0;
 }
-
 .about-me-container {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
@@ -38,24 +37,12 @@
   z-index: 1;
 }
 
-/* .hi {
-  background-color: #dcd4cc;
-  position: absolute;
-  z-index: 2;
-  top: 85%;  Adjust the position 
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;  Responsive width 
-  padding: 10px;  Add some padding for content
-  border-radius: 25px;
-} */
 
-/* .bio {
-  max-width: 100%;  Responsive max-width 
-  margin: 0 auto;
-} */
+.bio h3, .bio p {
+  font-size: 2vw;
+}
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 768px) {
   .about-me-container {
     grid-template-columns: 1fr;
   }

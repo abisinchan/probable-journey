@@ -14,7 +14,7 @@ function Navigation({ activeSection, setActiveSection }) {
               onClick={() => setActiveSection(section)}
               className={activeSection === section ? 'active' : ''}
             >
-              {section}
+              {section.toUpperCase()}
             </li>
           ))}
         </ul>

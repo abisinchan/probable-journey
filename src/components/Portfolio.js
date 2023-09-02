@@ -63,8 +63,7 @@ function Portfolio() {
   ];
   return (
     <div className="container">
-      <h2>My Portfolio</h2>
-      <section className="portfolio-section">
+      <section className="PORTFOLIOsection">
         <div className="portfolio-items">
           {projects.map((project, index) => (
             <div key={index} className="portfolio-item">

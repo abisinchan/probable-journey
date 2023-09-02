@@ -9,12 +9,13 @@ function AboutMe() {
         <div className="picContainer">
           <div className="avatar">
             <img src={userImage} alt="Picture of developer Abigail" />
-           
           </div>
         </div>
 
         <div className="bio"> 
-        <h3 className="hi">Hi! I'm Abigail.</h3>
+        <h3>
+         Hi, I'm Abigail. 
+        </h3>
           <p>Pronouns: She/Her</p>
           <p>
             I'm a passionate web developer with experience in creating modern
